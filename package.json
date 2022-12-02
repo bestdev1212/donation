@@ -1,0 +1,90 @@
+{
+  "name": "websocket-tools",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@hookform/resolvers": "^2.9.9",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.65",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "ethers": "^5.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.37.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "react-window": "^1.8.7",
+    "typescript": "^4.8.4",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --cache src/",
+    "lint-fix": "eslint --cache --fix src/ && prettier --write src/",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public",
+    "analyze": "source-map-explorer 'build/static/js/*.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^6.5.12",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-interactions": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/addon-storysource": "^6.5.12",
+    "@storybook/builder-webpack5": "^6.5.12",
+    "@storybook/manager-webpack5": "^6.5.12",
+    "@storybook/node-logger": "^6.5.12",
+    "@storybook/preset-create-react-app": "^4.1.2",
+    "@storybook/react": "^6.5.12",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react-modal": "^3.13.1",
+    "@types/react-portal": "^4.0.4",
+    "@types/react-window": "^1.8.5",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "autoprefixer": "^10.4.12",
+    "babel-plugin-named-exports-order": "^0.0.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-tailwindcss": "^3.6.2",
+    "postcss": "^8.4.18",
+    "prettier": "^2.7.1",
+    "prop-types": "^15.8.1",
+    "react-portal": "^4.2.2",
+    "source-map-explorer": "^2.5.3",
+    "storybook-dark-mode": "^1.1.2",
+    "tailwindcss": "^3.1.8",
+    "webpack": "^5.74.0"
+  },
+  "volta": {
+    "node": "16.18.0"
+  }
+}
